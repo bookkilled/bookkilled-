@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/*---login----*/
+body{height:100%; font-family:Arial, 微软雅黑; background:url(../images/app_bg_new.png) repeat;font-size:10px;}
+header{ background:#ff3600; height:45px; text-align:center; line-height:45px; position:relative;}
+header h2{color:#FFFFFF; font-size:18px; font-weight:normal;}
+.btn_back{ background:url(../images/btn_back_new.png) no-repeat; background-size:11px 19px; width:11px; height:19px; float:left; position:absolute; top:12px; left:10px;padding: 0 0 0 23px;}
+.tit_login{ overflow:hidden; margin:20px auto 0 auto; width:168px;}
+.deatil_login{font-size: 1.5em;line-height: 20px;}
+.con_login{overflow:hidden; padding:10px; margin:10px; border:1px solid #c3c1c1; background:#f8f8f8;}
+.con_login section{margin-bottom: 10px;color: #6b6b6c;}
+.userinput{height:12px; border:1px solid #cbcaca; padding-top:14px;padding-bottom:14px; padding-left:4%; width:95.5%; font-size:12px; border-radius:2px;}
+.ckCode{height:12px; border:1px solid #cbcaca; padding-top:10px;padding-bottom:10px; padding-left:4%; font-size:12px; border-radius:2px;}
+.ck_num{margin-left: 10px;float: right!important;}
+.ck_num img{width:87px; height:32px; border: 1px solid #cbcaca;  background:87px 34px;}
+.remeber_box{float: left!important;margin-left: 20px;}
+.checkbox{position: absolute; cursor:pointer; width:16px; height:16px; background-position:0 0px; text-indent:-9999px; margin-left:-20px;}
+.checkbox{ background-image:url(../images/skinbox_new.png); background-size:16px 32px; }
+#errorMsg{display: none; float: left; color: red; margin:2px 0 0 10px;}
+.btn{ overflow: hidden;margin-top: 5px;}
+.btn_login ,.btn_zhuce{border-radius:3px; height:40px; text-align:center; line-height:40px; font-size:16px; color:#FFFFFF;}
+.btn_login{ background:#ff3600;width: 65%;float: left!important;}
+.btn_zhuce{ background:#009966;width: 31%;margin-left: 10px;float: right!important;}
+.login_help{ float:right; color:#e95504!important;margin-bottom: 0!important;}
+.login_help a{ color:#e95504;}
